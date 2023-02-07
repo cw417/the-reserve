@@ -6,6 +6,14 @@ MERN based banking system
 
 - possible customer account info structure:
 
+### Pages
+
+- Home/login
+- New account creation
+- Customer homepage
+- Transaction history
+- Admin page
+
 ## TODO
 
 ## Index
