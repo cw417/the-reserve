@@ -3,18 +3,17 @@ export default interface Customer {
   address: string,
   email: string,
   password: string,
-  adminPrivileges: boolean,
   accounts: {
     chequing: number,
-    savings: number,
-    investments: number
+    savings: number
   },
   transactionHistory: [
-    transactionId: {
+    {
       name: string,
       date: string,
       amount: string,
-      account: string
+      fromAccount: string,
+      toAccount: string
     }
   ]
 }
