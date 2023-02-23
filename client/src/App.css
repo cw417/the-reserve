@@ -24,3 +24,10 @@
 .nav-link {
   text-decoration: none;
 }
+
+/* Create User */
+
+.create-account-form {
+  display: flex;
+  flex-direction: column;
+}
