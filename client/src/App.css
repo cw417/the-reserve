@@ -9,5 +9,18 @@
 }
 
 .title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
 }
